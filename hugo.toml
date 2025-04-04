@@ -2,3 +2,16 @@ baseURL = 'https://sulphurium.com/'
 languageCode = 'en-us'
 title = 'Daniels Blog Site'
 theme = "hugo-blog-awesome"
+
+# Social Icons
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/varig203"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://example.com" #place holder
+
+# Blog params
+[params]
+  goToTop = true

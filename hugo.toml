@@ -1,6 +1,6 @@
 baseURL = 'https://sulphurium.com/'
-languageCode = 'en-us'
-title = 'Daniels Blog Site'
+languageCode = 'en-ca'
+title = 'Daniels Blog'
 theme = "hugo-blog-awesome"
 defaultContentLanguage = "en-ca"
 enableEmoji = true
@@ -16,6 +16,10 @@ enableEmoji = true
 		endLevel = 4 # ToC ends at H4
 		ordered = false # generates <ul> instead of <ol>
 
+# favicon
+[params]
+  favicon = "favicon.ico"
+
 # Social Icons
 [[params.socialIcons]]
 name = "github"
@@ -29,7 +33,7 @@ url = "https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"
 [Languages.en-ca]
   languageName = "English (Canada)"
   languageCode = "en-ca"
-  contentDir = "content/en"
+  contentDir = "content/en-ca"
   weight = 1
 
 # customizing top bar
@@ -52,7 +56,7 @@ url = "https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"
 
 # site params
 [Languages.en-ca.params]
-  sitename = "Daniel's Blog Site"
+  sitename = "Daniel's Blog"
   defaultColor = "dark"
   goToTop = true
   toc = true
@@ -62,7 +66,7 @@ url = "https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"
 [Languages.en-ca.params.author]
   avatar = "avatar.jpg"
   name = "Daniel T-B"
-  intro = "Daniel's Blog/Portfolio Site"
+  intro = "Daniel's Blog/Portfolio"
   description = "Everything that Daniel does related to his career in Software Development."
 
 

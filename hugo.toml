@@ -17,8 +17,13 @@ enableEmoji = true
 		ordered = false # generates <ul> instead of <ol>
 
 # favicon
-[params]
-  favicon = "favicon.ico"
+#[params]
+#  favicon = "favicon.ico"
+
+# image cache
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 # Social Icons
 [[params.socialIcons]]

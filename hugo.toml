@@ -16,8 +16,6 @@ enableEmoji = true
 		endLevel = 4 # ToC ends at H4
 		ordered = false # generates <ul> instead of <ol>
 
-
-
 # site params
 [params]
   sitename = "Daniel's Blog"
@@ -98,17 +96,8 @@ url = "https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"
   url = '/about/'
   weight = 30
 
-# site params
-[Languages.en-ca.params]
-  sitename = "Daniel's Blog"
-  defaultColor = "dark"
-  goToTop = true
-  toc = true
-  tocOpen = true
-  mainSections = ['blogs']
-
 # author params
-[Languages.en-ca.params.author]
+[Languages.de.params.author]
   avatar = "avatar.jpg"
   name = "Daniel T-B"
   intro = "Daniel's Blog/Portfolio"

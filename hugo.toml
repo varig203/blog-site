@@ -77,7 +77,7 @@ url = "https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"
 
 ###### German ######
 [Languages.de]
-  languageName = "Deutsche
+  languageName = "Deutsche"
   languageCode = "de"
   contentDir = "content/de"
   weight = 2

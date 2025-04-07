@@ -16,9 +16,17 @@ enableEmoji = true
 		endLevel = 4 # ToC ends at H4
 		ordered = false # generates <ul> instead of <ol>
 
-# favicon
-#[params]
-#  favicon = "favicon.ico"
+
+
+# site params
+[params]
+  sitename = "Daniel's Blog"
+  defaultColor = "dark"
+  goToTop = true
+  toc = true
+  tocOpen = true
+  mainSections = ['blogs']
+  #favicon = "favicon.ico"
 
 # image cache
 [caches]
@@ -58,15 +66,6 @@ url = "https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"
   name = 'About'
   url = '/about/'
   weight = 30
-
-# site params
-[Languages.en-ca.params]
-  sitename = "Daniel's Blog"
-  defaultColor = "dark"
-  goToTop = true
-  toc = true
-  tocOpen = true
-  mainSections = ['blogs']
 
 # author params
 [Languages.en-ca.params.author]

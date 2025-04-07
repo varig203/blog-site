@@ -5,7 +5,7 @@ author: Daniel T-B
 ---
 
 
-```
+```sh
                 __.;=====;.__                   daniel@SamsungSmartFridge 
             _.=+==++=++=+=+===;.                ------------------------- 
              -=+++=+===+=+=+++++=_              OS: Void Linux x86_64 

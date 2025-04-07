@@ -65,6 +65,7 @@ url = "https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"
   defaultColor = "dark"
   goToTop = true
   toc = true
+  tocOpen = true
   mainSections = ['blogs']
 
 # author params
@@ -74,5 +75,42 @@ url = "https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"
   intro = "Daniel's Blog/Portfolio"
   description = "Everything that Daniel does related to his career in Software Development."
 
+###### German ######
+[Languages.de]
+  languageName = "Deutsche
+  languageCode = "de"
+  contentDir = "content/de"
+  weight = 2
 
-  
+[Languages.de.menu]
+[[Languages.de.menu.main]]
+  pageRef = "/"
+  name = 'Startseite'
+  url = '/'
+  weight = 10
+[[Languages.de.menu.main]]
+  pageRef = "blogs"
+  name = 'Blogs'
+  url = '/blogs/'
+  weight = 20 
+[[Languages.de.menu.main]]
+  pageRef = "about"
+  name = 'Über'
+  url = '/about/'
+  weight = 30
+
+# site params
+[Languages.en-ca.params]
+  sitename = "Daniel's Blog"
+  defaultColor = "dark"
+  goToTop = true
+  toc = true
+  tocOpen = true
+  mainSections = ['blogs']
+
+# author params
+[Languages.en-ca.params.author]
+  avatar = "avatar.jpg"
+  name = "Daniel T-B"
+  intro = "Daniel's Blog/Portfolio"
+  description = "Alles, was Daniel im Bereich Softwareentwicklung macht."

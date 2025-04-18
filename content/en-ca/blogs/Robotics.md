@@ -3,7 +3,7 @@ date = '2025-04-06T14:05:53-07:00'
 draft = false
 title = 'My Robotics Journey'
 categories = ['Robotics']
-tags = ["school", "robotics", "v5rc"]
+tags = ["school", "robotics", "v5rc", "programming"]
 +++
 
 I started doing Robotics in Grade 9, just because it sounded like a fun course and I loved the idea of being hands on with my code. It began with a curiosity which quickly progressed into a passion — and by now, 3 months before graduation, I had spent 3 years in Robotics and 4 years Programming.

@@ -28,5 +28,5 @@ author: Daniel T-B
                                                                         
 ```
 
-Hallo, ich bin Daniel, ein Entwickler in der Oberstufe. Ich programmiere hauptsächlich in C/C++, benutze aber manchmal Python und Bash.
+Hallo, ich bin Daniel, ein 18 Jahre alter Softwareentwickler. Ich programmiere hauptsächlich in C/C++, benutze aber manchmal Python und Bash.
 

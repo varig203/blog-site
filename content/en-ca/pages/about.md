@@ -28,5 +28,5 @@ author: Daniel T-B
                                                                         
 ```
 
-Hi, I am Daniel, a high school senior developer. I primarily program in C/C++ but sometimes use python and bash.
+Hi, I am Daniel, an 18 year old software developer. I primarily program in C/C++ but sometimes use python and bash.
 

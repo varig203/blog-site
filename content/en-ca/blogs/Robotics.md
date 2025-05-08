@@ -41,7 +41,8 @@ I started doing Robotics in Grade 9, just because it sounded like a fun course a
 <sup>Doesn't work due to protections</sup>
 
 ## Grade 12 - Breakthrough Year
-[Github Repository](https://github.com/varig203/6408S)
+[Github Repository First team](https://github.com/varig203/6408S)
+[Github Repository Second Team](https://github.com/varig203/6408W)
 - Joined the Robotics club to compete within B.C. (British Columbia).
 - Played a key role in two teams due to a mid-season switch.
 - Programmed both robots from scratch and assisted with code cleanup and refactoring.

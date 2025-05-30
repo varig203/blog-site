@@ -6,27 +6,28 @@ author: Daniel T-B
 
 
 ```sh
-                __.;=====;.__                   daniel@SamsungSmartFridge 
-            _.=+==++=++=+=+===;.                ------------------------- 
-             -=+++=+===+=+=+++++=_              OS: Void Linux x86_64 
-        .     -=:``     `--==+=++==.            Kernel: 6.12.20_1 
-       _vi,    `            --+=++++:           Uptime: 3 days, 2 hours, 59 mins 
-      .uvnvi.       _._       -==+==+.          Packages: 1124 (xbps-query), 45 (flatpak) 
-     .vvnvnI`    .;==|==;.     :|=||=|.         Shell: zsh 5.9 
-+QmQQmpvvnv; _yYsyQQWUUQQQm #QmQ#:QQQWUV$QQm.   Resolution: 2560x1440 
- -QQWQWpvvowZ?.wQQQE==<QWWQ/QWQW.QQWW(: jQWQE   DE: GNOME 47.4 
-  -$QQQQmmU'  jQQQ@+=<QWQQ)mQQQ.mQQQC+;jWQQ@'   WM: Mutter 
-   -$WQ8YnI:   QWQQwgQQWV`mWQQ.jQWQQgyyWW@!     WM Theme: Graphite-teal-Dark-nord 
-     -1vvnvv.     `~+++`        ++|+++          Theme: Adwaita [GTK2/3] 
-      +vnvnnv,                 `-|===           Icons: Nordzy-dark [GTK2/3] 
-       +vnvnvns.           .      :=-           Terminal: kitty 
-        -Invnvvnsi..___..=sv=.     `            CPU: AMD Ryzen 9 7900X (24) @ 5.733GHz 
-          +Invnvnvnnnnnnnnvvnn;.                GPU: NVIDIA GeForce RTX 4070 
-            ~|Invnvnvvnvvvnnv}+`                Memory: 8817MiB / 63958MiB 
-               -~|{*l}*|~
-                                                                        
-                                                                        
+╭───────────── daniel
+│ System Information
+│  󰍹 OS: Void Linux x86_64
+│  󰒋 Kernel: Linux 6.14.6_1
+│  󰅐 Uptime: 1 day, 12 hours, 47 mins
+│  󰏖 Packages: 1415
+│
+│ Desktop Environment
+│  󱂬 WM: Hyprland 0.49.0 (Wayland)
+│  󰹑 Resolution: 2560x1440 @ 60 Hz in 27" [External]
+│  󰞷 Shell: zsh 5.9
+│  󰛖 Font: HackNF-Regular (11pt)
+│
+│ Hardware Information
+│  󰻠 CPU: AMD Ryzen 9 7900X (24) @ 5.74 GHz
+│  󰢮 GPU: NVIDIA GeForce RTX 4070 [Discrete]
+│  󰍛 Memory: 6.69 GiB / 62.46 GiB (11%)
+│  󰋊 Disk (/home/): 313.98 GiB / 404.76 GiB (78%) - btrfs
+│
+│: ● ● ● ● ● ● ● ●
+╰───────────────────────────────╯                   
 ```
 
-Hi, I am Daniel, an 18 year old software developer. I primarily program in C/C++ but sometimes use python and bash.
+Hi, I am Daniel, an 18 year old software developer. I primarily program in C/C++ but sometimes use Python, Bash, and Assembly.
 

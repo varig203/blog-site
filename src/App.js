@@ -30,7 +30,6 @@ function Footer() {
       </div>
       <div className="footer-license">
         © 2025 Daniel Treiber-Bobylev. All rights reserved.
-        Further information is in <code>LICENSE.md</code>.
       </div>
     </footer>
   );

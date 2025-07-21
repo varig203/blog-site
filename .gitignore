@@ -1,7 +1,0 @@
-# build files
-public/
-resources/
-.hugo_build.lock
-
-# LMStudio workflow
-.continue/ 

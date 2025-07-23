@@ -1,17 +1,15 @@
-import logo from './logo.svg';
+import avatar from './avatar.jpg'
 import './App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-;
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Header() {
   return (
     <div className="header">
-      <img src={logo} className="App-logo" alt="App Logo" />
+      <img src={avatar} className="my-pfp" alt="App Logo" />
       <div>
-        <h1>Daniel's Portfolio</h1>
-        <p>Everything that Daniel does related to his career in Software Development.</p>
+          <h1>Daniel's Portfolio</h1>
+          <p>Everything that Daniel does related to his career in Software Development.</p>
       </div>  
     </div>
   );
@@ -22,10 +20,10 @@ function Footer() {
     <footer className="footer">
       <div className="footer-links">
         <a href="https://sulphurium.com" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faUser} /> Portfolio
+          <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
         </a>
-        <a href="https://github.com/varig203/blog-site" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} /> Source Code
+        <a href="https://github.com/varig203" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} /> Github
         </a>
       </div>
       <div className="footer-license">

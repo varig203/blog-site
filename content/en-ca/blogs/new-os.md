@@ -1,12 +1,12 @@
 +++
 date = '2025-04-17T20:19:56-07:00'
 draft = false
-title = 'New OS'
+title = '[Cancelled] New OS'
 categories = ['Software']
 tags = ["programming", "linux", "osdev", "rust", "wayland"]
 +++
 
-# ON HOLD
+# CANCELLED
 
 # Introduction
 

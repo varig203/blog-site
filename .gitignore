@@ -5,3 +5,6 @@ resources/
 
 # LMStudio workflow
 .continue/ 
+
+# switching branches.
+node_modules/

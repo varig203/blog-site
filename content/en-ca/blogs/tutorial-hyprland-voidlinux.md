@@ -1,6 +1,7 @@
 +++
 date = '2025-07-12T21:23:14-07:00'
 title = 'How to install Hyprland on Void Linux'
+categories = ['Tutorial']
 tags = ["linux", "wayland", "hyprland", "voidlinux", "tutorial"]
 +++
 

@@ -1,7 +1,7 @@
 +++
 date = '2025-04-17T20:19:56-07:00'
 draft = false
-title = '[Cancelled] New OS'
+title = 'New OS'
 categories = ['Software']
 tags = ["programming", "linux", "osdev", "rust", "wayland"]
 +++
@@ -53,3 +53,7 @@ This blog will serve as a devlog, I will try to post updates and progress as muc
 Just me. One dev. No team. No funding. No startup.
 
 Just a keyboard, a terminal, and a vision/dream (whatever you wanna call it).
+
+# UPDATE!
+
+This has been put on the backburner due to university yet I do have some changes. They are mostly that I want to make my own kernel and I am not going to use Rust and probably just use C++. Why C++ you may ask? I just don't have the time to learn Rust is all. This project will always be on my mind so who knows, maybe one day I will have time to start this, and I will update this site when the day comes.

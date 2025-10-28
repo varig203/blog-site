@@ -6,8 +6,6 @@ categories = ['Software']
 tags = ["programming", "linux", "osdev", "rust", "wayland"]
 +++
 
-# CANCELLED
-
 # Introduction
 
 I am currently making a new OS. Why you may ask? I am tired of all distros and OSes lack of care for the *user*. 

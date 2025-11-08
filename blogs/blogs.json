@@ -2,8 +2,17 @@
     {
         "title": "My Robotics Journey",
         "slug": "robotics",
-        "date": "6 April, 2025",
+        "date": "2025-04-06T14:05:53-07:00",
         "tags": ["school", "robotics", "v5rc", "programming"],
-        "content-file": "en-ca/robotics.html"
+        "contentFile": "en/robotics.html",
+        "lang": "en"
+    },
+    {
+        "title": "Meine Robotik Reise",
+        "slug": "robotik",
+        "date": "2025-04-06T14:05:53-07:00",
+        "tags": ["schule", "robotik", "v5rc", "programmierung"],
+        "contentFile": "de/robotik.html",
+        "lang": "de"
     }
 ]

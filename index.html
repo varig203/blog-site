@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:ital@0;1&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
     <script src="https://kit.fontawesome.com/e93339211f.js" crossorigin="anonymous"></script>
     <title>Daniel's Blog</title>
 </head>
@@ -13,21 +13,23 @@
     <body>
         <div id="root">
             <header>
-                <div id="logo-area">
+                <div id="left-header">
                     <img src="media/avatar.png" alt="Profile Picture" id="logo">
                     <h1>Daniel's Blog</h1>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blogs/blogs.html">Blogs</a></li>
-                        <li><a href="blogs/about.html">About Me</a></li>
-                    </ul>
-                </nav>
-                <select id="language-switcher">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch</option>
-                </select>
+                <div class="right-header">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="blogs/blogs.html">Blogs</a></li>
+                            <li><a href="blogs/about.html">About Me</a></li>
+                        </ul>
+                    </nav>
+                    <select id="language-switcher">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch</option>
+                    </select>
+                </div>
             </header>
             <main>
                 <div class="blogs">

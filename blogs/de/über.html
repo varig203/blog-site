@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
     <script src="https://kit.fontawesome.com/e93339211f.js" crossorigin="anonymous"></script>
@@ -13,15 +14,15 @@
         <div id="root">
             <header>
                 <div id="left-header">
-                    <img src="media/avatar.png" alt="Profile Picture" id="logo">
+                    <img src="../media/avatar.png" alt="Profile Picture" id="logo">
                     <h1>Daniel's Blog</h1>
                 </div>
                 <div class="right-header">
                     <nav>
                         <ul>
-                            <li id="home-header"><a href="index.html">Home</a></li>
-                            <li id="blogs-header"><a href="blogs/blogs.html">Blogs</a></li>
-                            <li id="about-header"><a href="blogs/about.html">About Me</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/blogs/de/blogs.html">Blogs</a></li>
+                            <li><a href="/blogs/de/über.html">About Me</a></li>
                         </ul>
                     </nav>
                     <select id="language-switcher">
@@ -31,14 +32,7 @@
                 </div>
             </header>
             <main>
-                <div id="home-info">
-                    <h2>Everything that Daniel does related to his career in Software Development.</h2>
-                </div>
-                <div class="blogs">
-                    <h2>Newest posts</h2>
-                    <input type="text" id="search" placeholder="Search blogs...">
-                    <div id="blog-list"></div>
-                </div>
+                
             </main>
             <footer>
 

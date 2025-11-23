@@ -4,7 +4,7 @@
         "slug": "robotics",
         "date": "2025-04-06T14:05:53-07:00",
         "tags": ["school", "robotics", "v5rc", "programming"],
-        "contentFile": "en/robotics.html",
+        "contentFile": "en/portfolio/robotics.html",
         "lang": "en"
     },
     {
@@ -12,7 +12,7 @@
         "slug": "robotik",
         "date": "2025-04-06T14:05:53-07:00",
         "tags": ["schule", "robotik", "v5rc", "programmierung"],
-        "contentFile": "de/robotik.html",
+        "contentFile": "de/portfolio/robotik.html",
         "lang": "de"
     }
 ]

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,6 @@
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css">
     <title>Daniel's Blog</title>
 </head>
-    <script src="/js/search.js"></script>
     <body>
         <div id="root">
             <header>
@@ -34,10 +34,15 @@
                 <div id="home-info">
                     <h2>Everything that Daniel does related to his career in Software Development.</h2>
                 </div>
-                <div class="blogs">
+                <div class="blogs" role="region" aria-labelledby="blog-heading">
                     <h3>Newest posts</h3>
-                    <input type="text" id="search" placeholder="Search blogs...">
-                    <div id="blog-list"></div>
+                    <input type="text" id="search" placeholder="Search blogs..." aria-label="Search blogs">
+                    <noscript>
+                        <div role="alert">
+                            <p>Blog list unavailable. Please <a href="https://www.enablejavascript.io/">enable JavaScript in your browser</a>.</p>
+                        </div>
+                    </noscript>
+                    <div id="blog-list" aria-live="polite"></div>
                 </div>
             </main>
             <footer>
@@ -48,5 +53,6 @@
                 <p>© 2025 Daniel T-B. Third-party logos remain property of their respective owners. Icons by FontAwesome.</p>
             </footer>
         </div>
+    <script type="module" src="/js/main.js"></script>
     </body>
 </html>

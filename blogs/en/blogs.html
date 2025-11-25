@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css">
@@ -12,25 +12,29 @@
 </head>
     <body>
         <div id="root">
-            <header>
-                <div id="left-header">
-                    <img src="../media/avatar.png" alt="Profile Picture" id="logo">
-                    <h1>Daniel's Blog</h1>
-                </div>
-                <div class="right-header">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="blogs/blogs.html">Blogs</a></li>
-                            <li><a href="blogs/about.html">About Me</a></li>
-                        </ul>
-                    </nav>
-                    <select id="language-switcher">
-                        <option value="en">English</option>
-                        <option value="de">Deutsch</option>
-                    </select>
-                </div>
-            </header>
+            <div id="header-wrapper">
+                <header>
+                    <div id="left-header">
+                        <a href="/index.html">
+                            <img src="/media/avatar.png" alt="Profile Picture" id="logo">
+                            <h1>Daniel's Blog</h1>
+                        </a>
+                    </div>
+                    <div class="right-header">
+                        <nav>
+                            <ul>
+                                <li><a href="/index.html"><span class="text">Home</span><span class="icon"><i class="fas fa-home"></i></span></a></li>
+                                <li><a href="/blogs/en/blogs.html"><span class="text">Blogs</span><span class="icon"><i class="fas fa-book"></i></span></a></li>
+                                <li><a href="/blogs/en/about.html"><span class="text">About</span><span class="icon"><i class="fas fa-image-portrait"></i></span></a></li>
+                            </ul>
+                        </nav>
+                        <select id="language-switcher">
+                            <option value="en">English</option>
+                            <option value="de">Deutsch</option>
+                        </select>
+                    </div>
+                </header>
+            </div>
             <main>
                 <noscript>
                     <div role="alert">

@@ -1,4 +1,4 @@
-export async function fetchPosts(jsonPath = '../blogs/blogs.json') {
+export async function fetchPosts(jsonPath = '/blogs/blogs.json') {
   const res = await fetch(jsonPath);
   if (!res.ok) throw new Error('Failed to fetch blogs.json: ' + res.status);
 

@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/solid.css">
     <title>Daniel's Blog</title>
     <link rel="icon" href="data:,"> <!-- Null -->
 </head>
@@ -15,15 +17,17 @@
             <div id="header-wrapper">
                 <header>
                     <div id="left-header">
-                        <img src="/media/avatar.png" alt="Profile Picture" id="logo">
-                        <h1>Daniel's Blog</h1>
+                        <a href="/index.html">
+                            <img src="/media/avatar.png" alt="Profile Picture" id="logo">
+                            <h1>Daniel's Blog</h1>
+                        </a>
                     </div>
                     <div class="right-header">
                         <nav>
                             <ul>
-                                <li id="home-header"><a href="/index.html">Home</a></li>
-                                <li id="blogs-header"><a href="/blogs/en/blogs.html">Blogs</a></li>
-                                <li id="about-header"><a href="/blogs/en/about.html">About Me</a></li>
+                                <li><a href="/index.html"><span class="text">Home</span><span class="icon"><i class="fas fa-home"></i></span></a></li>
+                                <li><a href="/blogs/en/blogs.html"><span class="text">Blogs</span><span class="icon"><i class="fas fa-book"></i></span></a></li>
+                                <li><a href="/blogs/en/about.html"><span class="text">About</span><span class="icon"><i class="fas fa-image-portrait"></i></span></a></li>
                             </ul>
                         </nav>
                         <select id="language-switcher">

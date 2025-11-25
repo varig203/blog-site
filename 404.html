@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="404 Error – The page you requested was not found on Daniel's Blog. Return to the home page to continue browsing.">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
-    <script src="https://kit.fontawesome.com/e93339211f.js" crossorigin="anonymous"></script>
-    <title>Daniel's Blog</title>
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css">
+    <title>Daniel's Blog - Error!</title>
 </head>
     <body>
         <div id="root">
             <header>
                 <div id="left-header">
                     <img src="/media/avatar.png" alt="Profile Picture" id="logo">
-                    <h1>Daniel's Blog - Error</h1>
+                    <h1>Daniel's Blog</h1>
                 </div>
                 <div class="right-header">
                     <nav>
                         <ul>
-                            <li><a href="/index.html">Home</a></li>
-                            <li><a href="/blogs/en/blogs.html">Blogs</a></li>
-                            <li><a href="/blogs/en/about.html">About Me</a></li>
+                            <li id="home-header"><a href="/index.html">Home</a></li>
+                            <li id="blogs-header"><a href="/blogs/en/blogs.html">Blogs</a></li>
+                            <li id="about-header"><a href="/blogs/en/about.html">About Me</a></li>
                         </ul>
                     </nav>
                     <select id="language-switcher">
@@ -30,13 +31,17 @@
                     </select>
                 </div>
             </header>
-            <main>
+            <main id="404" role="main" aria-label="Page not found">
                 <h2>404</h2>
-                <p>Oops! - page not found! Click here to return home.</p>
-                <a href="index.html" id="404-redirect">Home</a>
+                <p>Oops! - page not found! Click Home to return home.</p>
+                <a href="/index.html" id="404-redirect">Home</a>
             </main>
             <footer>
-
+                <ul>
+                    <li><a href="https://github.com/varig203"><i class="fa-brands fa-square-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"><i class="fa-brands fa-square-linkedin"></i></a></li>
+                </ul>
+                <p>© 2025 Daniel T-B. Third-party logos remain property of their respective owners. Icons by FontAwesome.</p>
             </footer>
         </div>
     </body>

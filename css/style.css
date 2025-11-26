@@ -179,11 +179,26 @@ footer {
     text-align: center;
 }
 
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+
 /* 
 ** POSTS STYLING
 */
 
+#post-page {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
 
+#post-page img {
+    max-width: 700px;
+    padding-top: 5px;
+}
 
 /*
 ** RESPONSIVE DESIGN

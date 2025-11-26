@@ -15,10 +15,8 @@ export function renderPosts(posts, userLang, container) {
 
     const article = document.createElement('article');
     article.innerHTML = `
-      <section>
-        <h2><a href="${post.contentFile || '#'}">${post.title || 'Untitled'}</a></h2>
-        <small>${displayDate}</small>
-      </section>
+      <h4><a href="${post.contentFile || '#'}">${post.title || 'Untitled'}</a></h4>
+      <small>${displayDate}</small>
     `;
     container.appendChild(article);
   });

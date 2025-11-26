@@ -160,7 +160,6 @@ main {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     width: 100%;
     margin-top: 50px;
-    max-width: 850px;
 }
 
 .blogs article:hover {

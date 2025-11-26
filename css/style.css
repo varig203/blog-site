@@ -149,6 +149,10 @@ main {
     box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 
+#blog-list {
+    width: 50%;
+}
+
 .blogs article {
     background-color: var(--nord1);
     padding: 20px;
@@ -156,6 +160,7 @@ main {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     width: 100%;
     margin-top: 50px;
+    max-width: 850px;
 }
 
 .blogs article:hover {

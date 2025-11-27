@@ -180,12 +180,12 @@ footer {
     background-color: var(--nord0);
     padding: 1rem;
     text-align: center;
+    margin-top: 50px;
 }
 
 footer ul {
     list-style: none;
     display: flex;
-    margin: auto;
 }
 
 /* 

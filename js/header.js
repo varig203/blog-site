@@ -1,30 +1,72 @@
+import { getUserLang, setUserLang } from './lang.js';
+
 export function renderHeader(containerId) {
     const container = document.getElementById(containerId);
     if (!container) return;
 
+    const currentFile = window.location.pathname.split('/').pop();
+
+    // detect if we are in en or de
+    const pathParts = window.location.pathname.split('/');
+    const isBlogPage = pathParts.includes('blogs');
+    const currentLang = pathParts.includes('de') ? 'de' : 'en';
+
+    // get user lang first
+    const userLang = getUserLang() || currentLang;
+
+    const labels = {
+        home: userLang === 'de' ? 'Startseite' : 'Home',
+        blogs: userLang === 'de' ? 'Blogs' : 'Blogs',
+        about: userLang === 'de' ? 'Über' : 'About'
+    };
+
+    // make the link based on language
+    const blogsBase = `/blogs/${userLang}`;
+
+    const blogsURL = `${blogsBase}/blogs.html`;
+    const aboutURL = `${blogsBase}/about.html`;
+
     container.innerHTML = `
-                <header>
-                    <div id="left-header">
-                        <a href="/index.html">
-                            <img src="/media/avatar.png" alt="Profile Picture" id="logo">
-                            <h1>Daniel's Blog</h1>
-                        </a>
-                    </div>
-                    <div class="right-header">
-                        <nav>
-                            <ul>
-                                <li><a href="/index.html"><span class="text">Home</span><span class="icon"><i class="fas fa-home"></i></span></a></li>
-                                <li><a href="/blogs/en/blogs.html"><span class="text">Blogs</span><span class="icon"><i class="fas fa-book"></i></span></a></li>
-                                <li><a href="/blogs/en/about.html"><span class="text">About</span><span class="icon"><i class="fas fa-image-portrait"></i></span></a></li>
-                            </ul>
-                        </nav>
-                        <select id="language-switcher">
-                            <option value="en">English</option>
-                            <option value="de">Deutsch</option>
-                        </select>
-                    </div>
-                </header>
+        <header>
+            <div id="left-header">
+                <a href="/index.html">
+                    <img src="/media/avatar.png" alt="Profile Picture" id="logo">
+                    <h1>Daniel's Blog</h1>
+                </a>
+            </div>
+
+            <div class="right-header">
+                <nav>
+                    <ul>
+                        <li><a href="/index.html"><span class="text">${labels.home}</span><span class="icon"><i class="fas fa-home"></i></span></a></li>
+                        <li><a href="${blogsURL}"><span class="text">${labels.blogs}</span><span class="icon"><i class="fas fa-book"></i></span></a></li>
+                        <li><a href="${aboutURL}"><span class="text">${labels.about}</span><span class="icon"><i class="fas fa-image-portrait"></i></span></a></li>
+                    </ul>
+                </nav>
+
+                <select id="language-switcher">
+                    <option value="en" ${userLang === 'en' ? 'selected' : ''}>English</option>
+                    <option value="de" ${userLang === 'de' ? 'selected' : ''}>Deutsch</option>
+                </select>
+            </div>
+        </header>
     `;
+
+    // language switching logic stuff
+    const switcher = document.getElementById('language-switcher');
+    if (switcher) {
+        switcher.addEventListener('change', (e) => {
+            const newLang = setUserLang(e.target.value);
+
+            if (!isBlogPage) {
+                window.location.href = '/index.html';
+                return;
+            }
+
+            // just change the language code.
+            window.location.href = `/blogs/${newLang}/${currentFile}`;
+        });
+    }
 }
 
 export function renderFooter(containerId) {
@@ -40,6 +82,6 @@ export function renderFooter(containerId) {
             <p>
                 &copy; ${new Date().getFullYear()} Daniel T-B. Third-party logos remain property of their respective owners. Icons by FontAwesome.
             </p>
-            </footer> 
+        </footer>
     `;
 }

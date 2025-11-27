@@ -200,7 +200,15 @@ footer ul {
 
 #post-page img {
     max-width: 700px;
-    padding-top: 5px;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+#post-page h2 {
+    font-weight: 900;
+    font-size: xx-large;
+    padding-top: 50px;
 }
 
 /*

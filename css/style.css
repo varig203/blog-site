@@ -36,7 +36,8 @@ h1, h2, h3, strong {
 
 #root {
     margin: 0 auto;
-    max-width: clamp(100%,2vw,850px);
+    width: 100%;
+    max-width: 850px;
 }
 
 header {

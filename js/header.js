@@ -30,7 +30,7 @@ export function renderHeader(containerId) {
         <header>
             <div id="left-header">
                 <a href="/index.html">
-                    <img src="/media/avatar.png" alt="Profile Picture" id="logo">
+                    <img src="/media/avatar.webp" alt="Profile Picture" id="logo">
                     <h1>Daniel's Blog</h1>
                 </a>
             </div>

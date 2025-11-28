@@ -3,48 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css">
-    <title>Daniel's Blog - Blogs-Liste</title>
+    <title>Daniel's Blog - Blogs list</title>
     <link rel="icon" href="data:,"> <!-- Null -->
 </head>
     <body>
         <div id="root">
-            <header>
-                <div id="left-header">
-                    <img src="../media/avatar.png" alt="Profile Picture" id="logo">
-                    <h1>Daniel's Blog</h1>
-                </div>
-                <div class="right-header">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="blogs/blogs.html">Blogs</a></li>
-                            <li><a href="blogs/about.html">About Me</a></li>
-                        </ul>
-                    </nav>
-                    <select id="language-switcher">
-                        <option value="en">English</option>
-                        <option value="de">Deutsch</option>
-                    </select>
-                </div>
-            </header>
+            <div id="header-wrapper"></div>
             <main>
+                <noscript>
+                    <div role="alert">
+                        <p>Blog list unavailable. Please <a href="https://www.enablejavascript.io/">enable JavaScript in your browser</a>.</p>
+                    </div>
+                </noscript>
                 <div class="blogs">
-                    <input type="text" id="search" placeholder="Blogs suchen..." aria-label="Blogs suchen">
-                    <div id="blog-list" aria-live="polite"></div>
+                    <input type="text" id="search" placeholder="Search blogs..." aria-label="Search blogs">
+                    <div id="blog-list"></div>
                 </div>
             </main>
-            <footer>
-                <ul>
-                    <li><a href="https://github.com/varig203"><i class="fa-brands fa-square-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"><i class="fa-brands fa-square-linkedin"></i></a></li>
-                </ul>
-                <p>© 2025 Daniel T-B. Logos von Drittanbietern bleiben Eigentum ihrer jeweiligen Inhaber. Symbole von FontAwesome.</p>
-            </footer>
+            <div id="footer-wrapper"></div>
         </div>
         <script type="module" src="/js/main.js"></script>
+        <script type="module" src="/js/render_header-footer.js"></script>
     </body>
 </html>

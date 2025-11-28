@@ -12,7 +12,71 @@
         "slug": "robotik",
         "date": "2025-04-06T14:05:53-07:00",
         "tags": ["schule", "robotik", "v5rc", "programmierung"],
-        "contentFile": "/blogs/de/portfolio/robotik.html",
+        "contentFile": "/blogs/de/portfolio/robotics.html",
+        "lang": "de"
+    },
+    {
+        "title": "New OS",
+        "slug": "software",
+        "date": "2025-04-17T20:19:56-07:00",
+        "tags": ["programming", "linux", "osdev", "rust", "wayland"],
+        "contentFile": "/blogs/en/portfolio/new-os.html",
+        "lang": "en"
+    },
+    {
+        "title": "Neues OS",
+        "slug": "software",
+        "date": "2025-04-17T20:19:56-07:00",
+        "tags": ["programmierung", "linux", "osdev", "rust", "wayland"],
+        "contentFile": "/blogs/de/portfolio/new-os.html",
+        "lang": "de"
+    },
+    {
+        "title": "How to install Hyprland on Void Linux",
+        "slug": "software",
+        "date": "2025-07-12T21:23:14-07:00",
+        "tags": ["linux", "wayland", "hyprland", "voidlinux", "tutorial"],
+        "contentFile": "/blogs/en/tutorials/tutorial-hyprland-voidlinux.html",
+        "lang": "en"
+    },
+    {
+        "title": "So installieren Sie Hyprland auf Void Linux",
+        "slug": "software",
+        "date": "2025-07-12T21:23:14-07:00",
+        "tags": ["linux", "wayland", "hyprland", "voidlinux", "tutorial"],
+        "contentFile": "/blogs/de/tutorials/tutorial-hyprland-voidlinux.html",
+        "lang": "de"
+    },
+    {
+        "title": "New Blogsite",
+        "slug": "software",
+        "date": "2025-07-29T16:57:48-07:00",
+        "tags": ["website", "design", "development"],
+        "contentFile": "/blogs/en/portfolio/new-blogsite.html",
+        "lang": "en"
+    },
+    {
+        "title": "Neues Blogsite",
+        "slug": "software",
+        "date": "2025-07-29T16:57:48-07:00",
+        "tags": ["website", "design", "entwicklung", "webseite", "gestaltung"],
+        "contentFile": "/blogs/de/portfolio/new-blogsite.html",
+        "lang": "de"
+    },
+    {
+        "title": "New Blogsite [Update]",
+        "slug": "software",
+        "date": "2025-10-27T20:20:48-07:00",
+        "tags": ["website", "design", "development"],
+        "contentFile": "/blogs/en/portfolio/new-blogsite.html",
+        "lang": "en"
+    },
+    {
+        "title": "Neues Blogsite [Aktualisierung]",
+        "slug": "software",
+        "date": "2025-10-27T20:20:48-07:00",
+        "tags": ["website", "design", "entwicklung", "webseite", "gestaltung"],
+        "contentFile": "/blogs/de/portfolio/new-blogsite.html",
         "lang": "de"
     }
 ]

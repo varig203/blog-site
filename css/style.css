@@ -211,6 +211,11 @@ footer ul {
     padding-top: 50px;
 }
 
+#ai-disclaimer {
+    color: #565d6b;
+    font-weight: 600;
+}
+
 /*
 ** RESPONSIVE DESIGN
 */

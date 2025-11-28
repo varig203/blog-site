@@ -54,17 +54,29 @@ export function renderHeader(containerId) {
 
     // language switching logic stuff
     const switcher = document.getElementById('language-switcher');
-    if (switcher) {
-        switcher.addEventListener('change', (e) => {
-            const newLang = setUserLang(e.target.value);
+        if (switcher) {
+            switcher.addEventListener('change', (e) => {
+                const newLang = setUserLang(e.target.value);
 
-            if (!isBlogPage) {
+            const pathParts = window.location.pathname.split('/').filter(Boolean);
+            const currentFile = pathParts.pop();
+
+            if (pathParts.length === 0) {
                 window.location.href = '/index.html';
                 return;
             }
 
-            // just change the language code.
-            window.location.href = `/blogs/${newLang}/${currentFile}`;
+            // check if we are in a folder
+            if (pathParts[0] === 'blogs' && ['en', 'de'].includes(pathParts[1])) {
+                // replace lang code while keep th subdir
+                pathParts[1] = newLang;
+                    const newPath = '/' + pathParts.concat(currentFile).join('/');
+                    window.location.href = newPath;
+                    return;
+            }
+
+        // fallback
+        window.location.href = '/index.html';
         });
     }
 }

@@ -38,15 +38,15 @@ export function renderHeader(containerId) {
             <div class="right-header">
                 <nav>
                     <ul>
-                        <li><a href="/index.html"><span class="text">${labels.home}</span><span class="icon"><i class="fas fa-home"></i></span></a></li>
-                        <li><a href="${blogsURL}"><span class="text">${labels.blogs}</span><span class="icon"><i class="fas fa-book"></i></span></a></li>
-                        <li><a href="${aboutURL}"><span class="text">${labels.about}</span><span class="icon"><i class="fas fa-image-portrait"></i></span></a></li>
+                        <li><a href="/index.html"><span class="text">${labels.home}</span><span class="icon"><i class="fas fa-home" aria-label="Home"></i></span></a></li>
+                        <li><a href="${blogsURL}"><span class="text">${labels.blogs}</span><span class="icon"><i class="fas fa-book" aria-label="Blogs"></i></span></a></li>
+                        <li><a href="${aboutURL}"><span class="text">${labels.about}</span><span class="icon"><i class="fas fa-image-portrait" aria-label="About"></i></span></a></li>
                     </ul>
                 </nav>
-
-                <select id="language-switcher">
-                    <option value="en" ${userLang === 'en' ? 'selected' : ''}>English</option>
-                    <option value="de" ${userLang === 'de' ? 'selected' : ''}>Deutsch</option>
+                
+                <select id="language-switcher" aria-label="Choose your language">
+                    <option value="en" lang="en" ${userLang === 'en' ? 'selected' : ''}>English</option>
+                    <option value="de" lang="de" ${userLang === 'de' ? 'selected' : ''}>Deutsch</option>
                 </select>
             </div>
         </header>
@@ -88,8 +88,8 @@ export function renderFooter(containerId) {
     container.innerHTML = `
         <footer>
             <ul>
-                <li><a href="https://github.com/varig203"><i class="fa-brands fa-square-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"><i class="fa-brands fa-square-linkedin"></i></a></li>
+                <li><a href="https://github.com/varig203"><i class="fa-brands fa-square-github" aria-label="Github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/daniel-treiber-bobylev-1a99bb354/"><i class="fa-brands fa-square-linkedin" aria-label="linkedin"></i></a></li>
             </ul>
             <p>
                 &copy; ${new Date().getFullYear()} Daniel T-B. Third-party logos remain property of their respective owners. Icons by FontAwesome.

@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
-    <link rel="stylesheet" href="/ext-assets/fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css">
-    <link rel="stylesheet" href="/ext-assets/fontawesome/css/solid.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/fontawesome.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/solid.css" media="print" onload="this.media='all'">
     <title>Daniel's Blog</title>
     <meta name="description" content="Daniel's Blog – Everything Daniel does related to Software Development"/>
     <link rel="icon" href="data:,"> <!-- Null -->
@@ -33,7 +34,7 @@
             </main>
             <div id="footer-wrapper"></div>
         </div>
-        <script type="module" src="/js/main.js"></script>
-        <script type="module" src="/js/render_header-footer.js"></script>
+        <script type="module" src="/js/main.js" defer></script>
+        <script type="module" src="/js/render_header-footer.js" defer></script>
     </body>
 </html>

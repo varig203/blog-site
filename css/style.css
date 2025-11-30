@@ -276,6 +276,36 @@ footer ul li i {
     font-weight: 600;
 }
 
+code {
+    background-color: var(--nord1);
+    padding: 3px;
+    border-radius: 4px;
+    display: inline-block;
+    font-family: monospace;
+}
+
+.code-block {
+    padding: 6px;
+    border-radius: 13px;
+    overflow-x: auto;
+    white-space: pre;
+    background-color: var(--nord1);
+}
+
+table {
+    border: 0px none;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
 /*
 ** RESPONSIVE DESIGN
 */

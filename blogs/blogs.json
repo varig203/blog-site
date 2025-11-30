@@ -62,5 +62,21 @@
         "tags": ["website", "design", "entwicklung", "webseite", "gestaltung"],
         "contentFile": "/blogs/de/portfolio/new-blogsite.html",
         "lang": "de"
+    },
+    {
+        "title": "New Blogsite [UPDATE]",
+        "slug": "software",
+        "date": "2025-11-30T00:53:00-07:00",
+        "tags": ["website", "design", "development", "update"],
+        "contentFile": "/blogs/en/portfolio/new-blogsite-update.html",
+        "lang":"en"
+    },
+    {
+        "title": "Neue Blogseite [AKTUALISIERUNG]",
+        "slug": "software",
+        "date": "2025-11-30T00:53:00-07:00",
+        "tags": ["website", "design", "development", "update", "entwicklung", "webseite", "gestaltung"],
+        "contentFile": "/blogs/de/portfolio/new-blogsite-update.html",
+        "lang":"de"
     }
 ]

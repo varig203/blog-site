@@ -208,7 +208,6 @@ footer ul li i {
     font-size: 30px;
 }
 
-
 /* 
 ** POSTS STYLING
 */
@@ -230,6 +229,43 @@ footer ul li i {
     font-weight: 900;
     font-size: xx-large;
     padding-top: 50px;
+}
+
+#post-page h3 {
+    font-weight: 800;
+    font-size: x-large;
+    padding-top: 20px;
+}
+
+#post-page h4 {
+    font-weight: 700;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#post-page h5 {
+    font-weight: 700;
+    font-size: large;
+    padding: 10px 0;
+}
+
+#post-page a {
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+#post-page ul li {
+    margin-left: 25px;
+    padding: 5px 0;
+}
+
+time {
+    display: inline-block;
+    font-size: 0.8em;
+    color: lightgray;
+    vertical-align: baseline;
+    padding-bottom: 25px;
 }
 
 #ai-disclaimer {

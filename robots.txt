@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /ext-assets/
 Disallow: /404.html
 Disallow: /blogs/
+Disallow: /templates/

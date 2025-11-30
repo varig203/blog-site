@@ -307,6 +307,21 @@ th, td {
 }
 
 /*
+** EEROR PAGE
+*/
+
+#root-err {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#error {
+    font-size: clamp(4rem, 30vw, 10rem);
+}
+
+/*
 ** RESPONSIVE DESIGN
 */
 

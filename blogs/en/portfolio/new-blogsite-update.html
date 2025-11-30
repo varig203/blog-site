@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/fontawesome.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/solid.css" media="print" onload="this.media='all'">
-    <title>Daniel's Blog | blank</title>
+    <title>Daniel's Blog |  New Blog Site [Update]</title>
     <link rel="icon" href="data:,"> <!-- Null -->
 </head>
     <body>
@@ -18,7 +18,39 @@
             <div id="header-wrapper"></div>
             <main>
                 <div id="post-page">
-                    <h2></h2>
+                    <h2>New Blog Site [Update]</h2>
+                    <time class="post-time post-date" datetime="2025-11-30T02:11:00-07:00"></time>
+                    <script>
+                        const timeElems = document.getElementsByClassName('post-time');
+
+                        for (let i = 0; i < timeElems.length; i++) {
+                            const elem = timeElems[i];
+                            const date = new Date(elem.getAttribute('datetime'));
+                            elem.textContent = date.toLocaleDateString(undefined, {
+                                year: 'numeric',
+                                month: 'short',
+                                day: 'numeric'
+                            });
+                        }
+                    </script>
+                    <h3>Introduction</h3>
+                    <p>I have finally created the new blog site. Still needs a little tweaking but, I have made it atleast.</p>
+                    <h3>Why did it take so long?</h3>
+                    <p>Well, I originally was wanting to make the site in React and I slowly realized that it will be overkill. I then waited until I was at BCIT in COMP 1850 to actually make it. It surprisingly was quicker to make then I imagined originally. I thought it was gonna take forever to be honest.</p>
+                    <br>
+                    <p>I also was dabbling in other things in the time like making a Minecraft mod as a joke. It was meant to be <a href="https://www.youtube.com/@SomeOrdinaryGamers">the Youtuber Mutahar</a> where I only made an awful model. Said awful model could be considered lost media as I cannot find it.</p>
+                    <br>
+                    <p>I also was upgrading my PC like I bought a new AIO for my PC to get temperatures lower than before. From 50°C to 38°C idle temperature which I would say is pretty good for an small form factor PC and Ryzen 9 7900x.</p>
+                    <img src="/media/portfolio/new-blogsite-update/upgradeaio.jpg" alt="CPU in motherboard">
+                    <h3>What's next?</h3>
+                    <p>I have this cool idea to make a game in C++ and Vulkan with no engine. Why? I admittedly struggle with GUI heavy applications like game engines so why not make a game without an engine and see where I go.</p>
+                    <br>
+                    <p>The game I am thinking of would likely be inspired by Minecraft for it's voxel world and all, but I take some inspiration from mods like <a href="https://gregtech.mechaenetia.com/">GregTech</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a>; I also plan to take some inspiration from the intuitive design of many <a href="https://store.steampowered.com/bundle/232/Valve_Complete_Pack/">Valve games</a>.</p>
+                    <br>
+                    <p>I have another idea like the previous blog about operating systems but I just aim for trying to be as user friendly as possible and that's it.</p>
+                    <br>
+                    <h3>Conclusion</h3>
+                    <p>That's about it for me and there is no definite future to be honest. I will just make what I can and update this blog with whatever I make that's worth sharing.</p>
                 </div>
             </main>
             <div id="footer-wrapper"></div>

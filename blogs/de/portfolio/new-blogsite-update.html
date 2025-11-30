@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/fontawesome.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/ext-assets/fontawesome/css/solid.css" media="print" onload="this.media='all'">
+    <title>Daniels Blog | Neue Blogseite [Update]</title>
+    <link rel="icon" href="data:,"> <!-- Null -->
+</head>
+<body>
+    <div id="root">
+        <div id="header-wrapper"></div>
+        <main>
+            <div id="post-page">
+                <h2>Neue Blogseite [Update]</h2>
+                <time class="post-time post-date" datetime="2025-11-30T02:11:48-07:00"></time>
+                <script>
+                    const timeElems = document.getElementsByClassName('post-time');
+
+                    for (let i = 0; i < timeElems.length; i++) {
+                        const elem = timeElems[i];
+                        const date = new Date(elem.getAttribute('datetime'));
+                        elem.textContent = date.toLocaleDateString('de-DE', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric'
+                        });
+                    }
+                </script>
+                <h3>Einleitung</h3>
+                <p>Ich habe endlich die neue Blogseite erstellt. Sie braucht noch ein bisschen Feinschliff, aber ich habe sie zumindest fertiggestellt.</p>
+                <h3>Warum hat es so lange gedauert?</h3>
+                <p>Nun, ursprünglich wollte ich die Seite in React erstellen, habe aber nach und nach gemerkt, dass das übertrieben wäre. Dann habe ich gewartet, bis ich bei BCIT im Kurs COMP 1850 war, um sie tatsächlich zu machen. Überraschenderweise ging es schneller als ich ursprünglich dachte. Ehrlich gesagt dachte ich, es würde ewig dauern.</p>
+                <br>
+                <p>In der Zwischenzeit habe ich mich auch mit anderen Dingen beschäftigt, wie zum Beispiel einem Minecraft-Mod als Scherz. Es sollte <a href="https://www.youtube.com/@SomeOrdinaryGamers">der YouTuber Mutahar</a> sein, aber ich habe nur ein furchtbares Modell erstellt. Dieses schreckliche Modell könnte als „verlorenes Medium“ betrachtet werden, da ich es nicht mehr finde.</p>
+                <br>
+                <p>Ich habe außerdem meinen PC aufgerüstet, zum Beispiel habe ich ein neues AIO-Kühlsystem gekauft, um die Temperaturen niedriger zu halten. Von 50°C auf 38°C Leerlauftemperatur, was ich für einen kleinen Formfaktor-PC mit Ryzen 9 7900X ziemlich gut finde.</p>
+                <img src="/media/portfolio/new-blogsite-update/upgradeaio.jpg" alt="CPU im Motherboard">
+                <h3>Was kommt als Nächstes?</h3>
+                <p>Ich habe die coole Idee, ein Spiel in C++ und Vulkan ohne Engine zu entwickeln. Warum? Ich habe zugegeben Schwierigkeiten mit GUI-lastigen Anwendungen wie Spiel-Engines, also warum nicht ein Spiel ohne Engine machen und schauen, wohin es führt.</p>
+                <br>
+                <p>Das Spiel, an das ich denke, wäre wahrscheinlich von Minecraft inspiriert, wegen der Voxel-Welt und allem, aber ich lasse mich auch von Mods wie <a href="https://gregtech.mechaenetia.com/">GregTech</a> und <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a> inspirieren; außerdem plane ich, mich vom intuitiven Design vieler <a href="https://store.steampowered.com/bundle/232/Valve_Complete_Pack/">Valve-Spiele</a> inspirieren zu lassen.</p>
+                <br>
+                <p>Ich habe auch eine andere Idee, ähnlich wie in meinem vorherigen Blog über Betriebssysteme, aber ich möchte einfach versuchen, so benutzerfreundlich wie möglich zu sein - das ist alles.</p>
+                <br>
+                <h3>Fazit</h3>
+                <p>Das war's von mir, und ehrlich gesagt gibt es keine festgelegte Zukunft. Ich werde einfach machen, was ich kann, und diesen Blog mit allem aktualisieren, was es wert ist, geteilt zu werden.</p>
+                <br>
+                <p id="ai-disclaimer">Dieser Beitrag wurde mithilfe von KI-Übersetzungstools erstellt.</p> 
+            </div>
+        </main>
+        <div id="footer-wrapper"></div>
+        <script type="module" src="/js/render_header-footer.js"></script>
+    </div>
+</body>
+</html>

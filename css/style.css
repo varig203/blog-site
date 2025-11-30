@@ -255,6 +255,10 @@ footer ul li i {
     padding-bottom: 15px;
 }
 
+#post-page p > a {
+    padding-bottom: 0;
+}
+
 #post-page ul li {
     margin-left: 25px;
     padding: 5px 0;

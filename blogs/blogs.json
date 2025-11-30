@@ -19,7 +19,7 @@
         "title": "New OS",
         "slug": "software",
         "date": "2025-04-17T20:19:56-07:00",
-        "tags": ["programming", "linux", "osdev", "rust", "wayland"],
+        "tags": ["programming", "linux", "osdev", "wayland"],
         "contentFile": "/blogs/en/portfolio/new-os.html",
         "lang": "en"
     },
@@ -27,7 +27,7 @@
         "title": "Neues OS",
         "slug": "software",
         "date": "2025-04-17T20:19:56-07:00",
-        "tags": ["programmierung", "linux", "osdev", "rust", "wayland"],
+        "tags": ["programmierung", "linux", "osdev", "wayland"],
         "contentFile": "/blogs/de/portfolio/new-os.html",
         "lang": "de"
     },
@@ -59,22 +59,6 @@
         "title": "Neues Blogsite",
         "slug": "software",
         "date": "2025-07-29T16:57:48-07:00",
-        "tags": ["website", "design", "entwicklung", "webseite", "gestaltung"],
-        "contentFile": "/blogs/de/portfolio/new-blogsite.html",
-        "lang": "de"
-    },
-    {
-        "title": "New Blogsite [Update]",
-        "slug": "software",
-        "date": "2025-10-27T20:20:48-07:00",
-        "tags": ["website", "design", "development"],
-        "contentFile": "/blogs/en/portfolio/new-blogsite.html",
-        "lang": "en"
-    },
-    {
-        "title": "Neues Blogsite [Aktualisierung]",
-        "slug": "software",
-        "date": "2025-10-27T20:20:48-07:00",
         "tags": ["website", "design", "entwicklung", "webseite", "gestaltung"],
         "contentFile": "/blogs/de/portfolio/new-blogsite.html",
         "lang": "de"

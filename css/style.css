@@ -272,7 +272,7 @@ footer ul li i {
 }
 
 #ai-disclaimer {
-    color: #565d6b;
+    color: var(--nord11);
     font-weight: 600;
 }
 

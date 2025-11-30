@@ -35,16 +35,16 @@
                         }
                     </script>
                     <h3>Introduction</h3>
-                    <p>Assuming you don’t know what is Void Linux nor Hyprland, no worries!</p>
+                    <p>Assuming you don't know what is Void Linux nor Hyprland, no worries!</p>
                     <br>
                     <p>Void Linux is a Linux distribution aimed for advanced users. It is a rolling release which means it will get updates forever and you do not need to switch between versions, like Ubuntu 22.04 to 24.04 or Windows 10 to 11. It also doesn’t use SystemD and instead uses runit which is argued to be more secure and faster. As with all distributions they have their pitfalls like this one has a small amount of avaliable software like in this case not providing Hyprland.</p>
                     <br>
                     <p>Hyprland is a tiling window manager running Wayland. It is like dwm (Dynamic Window Manager) but it is on Wayland which is the more modern alternative to X11.</p>
                     <br>
-                    <p>I use both of these tools as I like the freedom and the fun of customizing my computer to my liking. Void Linux was chosen after years of struggling with using Arch Linux due to it’s instability and trying many distribution but not liking any like, Ubuntu, Fedora, Gentoo, Linux From Scratch, OpenSUSE, and FreeBSD. Hyprland was chosen because I wanted to use my keyboard more and I thought it was the best choice when I found it browsing <a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></p>
+                    <p>I use both of these tools as I like the freedom and the fun of customizing my computer to my liking. Void Linux was chosen after years of struggling with using Arch Linux due to it's instability and trying many distribution but not liking any like, Ubuntu, Fedora, Gentoo, Linux From Scratch, OpenSUSE, and FreeBSD. Hyprland was chosen because I wanted to use my keyboard more and I thought it was the best choice when I found it browsing <a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></p>
                     <h3>Section 1: Setting up the environment</h3>
                     <h4>Update Void Linux!</h4>
-                    <p>Before doing anything, update your system. Assuming you’re using the default setup (with <code>sudo</code>), run:</p>
+                    <p>Before doing anything, update your system. Assuming you're using the default setup (with <code>sudo</code>), run:</p>
                     <br>
                     <pre class="code-block"><code>sudo xbps-install -Su</code></pre>
                     <br>
@@ -82,7 +82,7 @@
                     <pre class="code-block"><code>xbps-uhelper arch<br>ldd --version</code></pre>
                     <p>Just align yourself with the table with the following step.</p>
                     <br>
-                    <p>Run this following command be sure to replace the architecture string at the end if you’re not using x86_64-glibc. Small disclaimer that this is a third party repository.</p>
+                    <p>Run this following command be sure to replace the architecture string at the end if you're not using x86_64-glibc. Small disclaimer that this is a third party repository.</p>
                     <br>
                     <pre class="code-block"><code>echo repository=https://raw.githubusercontent.com/Encoded14/void-extra/repository-x86_64 | sudo tee /etc/xbps.d/20-repository-extra.conf</code></pre>
                     <h3>Section 2: Install Hyprland</h3>
@@ -91,16 +91,16 @@
                     <br>
                     <pre class="code-block"><code>xbps-query -Rs hypr</code></pre>
                     <br>
-                    <p>If it does, you’re good to go! Install Hyprland and its xdg portal. If not double check if you ran it correctly.</p>
+                    <p>If it does, you're good to go! Install Hyprland and its xdg portal. If not double check if you ran it correctly.</p>
                     <br>
                     <pre class="code-block"><code>sudo xbps-install -S hyprland xdg-desktop-portal-hyprland</code></pre>
                     <br>
-                    <p><strong>NOTE:</strong> If you use a Nvidia GPU, refer to the <a href="https://wiki.hypr.land/Nvidia/">Hyprland Wiki’s Nvidia section</a> for extra setup steps.</p>
+                    <p><strong>NOTE:</strong> If you use a Nvidia GPU, refer to the <a href="https://wiki.hypr.land/Nvidia/">Hyprland Wiki's Nvidia section</a> for extra setup steps.</p>
                     <h3>Conclusion</h3>
                     <p>I encourage you to read the <a href="https://wiki.hypr.land/">Hyprland Wiki</a> for further information. It includes information about software like detecting idling and screenlocking and wallpapers. However, that is all from me and I encourage you to experiment and have fun with your system. Break it and fix it yourself is the way of Linux afterall.</p>
                     <h3>Sources</h3>
                     <ul>
-                        <li><a href="https://github.com/Encoded14/void-extra">Encoded14’s Hyprland-Void Repo</a></li>
+                        <li><a href="https://github.com/Encoded14/void-extra">Encoded14's Hyprland-Void Repo</a></li>
                     </ul>
                 </div>
             </main>

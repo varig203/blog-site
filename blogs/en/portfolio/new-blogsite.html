@@ -18,8 +18,35 @@
             <div id="header-wrapper"></div>
             <main>
                 <div id="post-page">
-                    <h2>About me</h2>
-                    
+                    <h2>New Blog Site</h2>
+                    <time class="post-time post-date" datetime="2025-07-29T16:57:48-07:00"></time>
+                    <p class="post-date">Edited on <time class="post-time" datetime="2025-11-29T18:28:00-07:00"></time></p>
+                    <script>
+                        const timeElems = document.getElementsByClassName('post-time');
+
+                        for (let i = 0; i < timeElems.length; i++) {
+                            const elem = timeElems[i];
+                            const date = new Date(elem.getAttribute('datetime'));
+                            elem.textContent = date.toLocaleDateString(undefined, {
+                                year: 'numeric',
+                                month: 'short',
+                                day: 'numeric'
+                            });
+                        }
+                    </script>
+                    <h3>Introduction</h3>
+                    <p>Currently this site is using Hugo and well, I dislike how I have to use it’s constraints. Yes it looks good but I don’t like needing to use it’s systems so I am switching this site to raw HTML/CSS/JS</p>
+                    <h3>Why?</h3>
+                    <p>Hugo is a static site generator but it has it’s limitations and I want to learn something new which is JS and writing without a framework. Now, I dislike JS but it is nice to learn something new.</p>
+                    <h3>Advantages</h3>
+                    <p>The advantages with just going with no generator would be that; I have full flexibility on how the site looks and is layed out. I personally would love to have a liquid glass like blue on the header of the page with refraction. I understand it is overkill for a blogsite but I love having beautiful sites.</p>
+                    <h3>Disadvantages</h3>
+                    <p>Of course I would have to learn a whole new language which means updates to it would be slower, but that’s fine as long as I learn new things. Another thing is that I like in Hugo that content is auto added to the page without much effort but, here it would just be a json which I can add more information to.</p>
+                    <h3>Design</h3>
+                    <p>I plan for the site to have <a href="https://www.nordtheme.com/">nord colour scheming</a> as I like it’s colder looking colours and I use it in my Linux rice. I do also plan the aforementioned apple liquid glass like blur in the header.</p>
+                    <img src="/media/portfolio/new-blogsite/linuxrice.png" alt="Heavily customized Hyprland inside Void Linux">
+                    <h3>When is the release?</h3>
+                    <p>In the upcoming future as it isn’t high priority on my list of things. Again it is mostly just a refactor and won’t change the sites functionality. It’s entire goal is to make the site how I envision it and not how Hugo decides it to be.</p>
                 </div>
             </main>
             <div id="footer-wrapper"></div>

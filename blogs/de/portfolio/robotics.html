@@ -19,7 +19,22 @@
             <main>
                 <div id="post-page">
                 <h2>Meine Robotik-Reise</h2>
-                <sub>6. Apr. 2025</sub>
+                <time class="post-time post-date" datetime="2025-07-12T21:23:14-07:00"></time>
+                <p class="post-date">Bearbeitet am <time class="post-time" datetime="2025-11-29T23:44:00-07:00"></time></p>
+                <script>
+                    const timeElems = document.getElementsByClassName('post-time');
+
+                    for (let i = 0; i < timeElems.length; i++) {
+                        const elem = timeElems[i];
+                        const date = new Date(elem.getAttribute('datetime'));
+                        elem.textContent = date.toLocaleDateString('de-DE', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric'
+                        });
+                    }
+                </script>
+                <br>
                 <p>Ich begann mit Robotik in der 9. Klasse, einfach weil es nach einem spaßigen Kurs klang und ich die Idee liebte, praktisch mit meinem Code zu arbeiten. Es begann mit einer Neugier, die sich schnell zu einer Leidenschaft entwickelte und jetzt, 3 Monate vor dem Abschluss, hatte ich 3 Jahre in Robotik und 4 Jahre in Programmierung verbracht.</p>
                 <h3>Jahr für Jahr</h3>
                 <h4>9. Klasse - Erste Schritte</h4>
@@ -70,7 +85,8 @@
                 <img src="/media/portfolio/robotics/IMG_bug.jpg" alt="Data Abort Exception in PROS">
                 <sub>Fehler, auf den ich beim Erstellen des autonomen Selektors gestoßen bin</sub>
                 <p>In Zukunft plane ich, mein Wissen in Systemprogrammierung und Mathematik weiter zu vertiefen, da ich Betriebssysteme erstellen möchte.</p>
-                <sub id="ai-disclaimer">Dieser Beitrag wurde mithilfe von KI-Übersetzungstools erstellt.</sub>    
+                <br>
+                <p id="ai-disclaimer">Dieser Beitrag wurde mithilfe von KI-Übersetzungstools erstellt.</p>    
             </div>
             </main>
             <div id="footer-wrapper"></div>

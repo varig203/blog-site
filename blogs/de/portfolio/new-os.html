@@ -10,59 +10,61 @@
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/fontawesome.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/brands.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="/ext-assets/fontawesome/css/solid.css" media="print" onload="this.media='all'">
-    <title>Daniel's Blog | New OS</title>
+    <title>Daniel's Blog | Neues OS</title>
     <link rel="icon" href="data:,"> <!-- Null -->
 </head>
-    <body>
-        <div id="root">
-            <div id="header-wrapper"></div>
-            <main>
-                <div id="post-page">
-                    <h2>New OS</h2>
-                    <time class="post-time post-date" datetime="2025-04-17T20:19:56-07:00"></time>
-                    <p class="post-date">Edited on <time class="post-time" datetime="2025-11-29T18:15:00-07:00"></time></p>
-                    <script>
-                        const timeElems = document.getElementsByClassName('post-time');
+<body>
+    <div id="root">
+        <div id="header-wrapper"></div>
+        <main>
+            <div id="post-page">
+                <h2>Neues OS</h2>
+                <time class="post-time post-date" datetime="2025-04-17T20:19:56-07:00"></time>
+                <p class="post-date">Bearbeitet am <time class="post-time" datetime="2025-11-29T18:15:00-07:00"></time></p>
+                <script>
+                    const timeElems = document.getElementsByClassName('post-time');
 
-                        for (let i = 0; i < timeElems.length; i++) {
-                            const elem = timeElems[i];
-                            const date = new Date(elem.getAttribute('datetime'));
-                            elem.textContent = date.toLocaleDateString(undefined, {
-                                year: 'numeric',
-                                month: 'short',
-                                day: 'numeric'
-                            });
-                        }
-                    </script>
-                    <h3>Introduction</h3>
-                    <p>I am currently designing a new OS. Why you may ask? I am tired of all distros and OSes lack of care for the user experience.</p>
-                    <br>
-                    <p>MacOS tries, but there are some inconsistencies which appear to have been there since the start of it. Windows? I don't really have to explain but it is mainly profit driven with little care of the user or the privacy of said user.</p>
-                    <br>
-                    <p>Linux? That's my base, sure; but even there are huge flaws. Most distros fall apart at the desktop environment layer.</p>
-                    <h3>Why the desktop environment?</h3>
-                    <p>Let's take KDE for example pretty powerful yeah; but from the perspective of an average user, it can be pretty overwhelming. Many toggles, options, and modules; it quickly becomes a chaotic/messy experience. (For reference, I last used KDE around version 5.25.)</p>
-                    <br>
-                    <p>Then there's GNOME, sleak and clean by default, but requires tons of extensions to fully customize it how you want it, and overwhelming again for the average user to need to know how extensions work or sometimes break the desktop.</p>
-                    <h3>What I am building</h3>
-                    <p>I am likely gonna start building a Void Linux-based distro using a custom desktop environment I am going to create entirely from scratch. It'll be powered by Wayland and written in C++ most likely</p>
-                    <br>
-                    <p>The project is likely going to be called Andromeda OS as a whole and the Desktop Environment will be called Andromeda Desktop Environment, or just ADE for short. My inpirations for this are that I just like astronomy.</p>
-                    <p>The goal? A desktop that's clean, consistent, and designed for average people, not just developers or corporations.</p>
-                    <h3>Why C++?</h3>
-                    <p>Now this is a rewritten version of the original article removing Rust. Why? I learnt to dislike Rust as C++ is more simple for me.</p>
-                    <br>
-                    <p>I also like the more simple and less complex style of C++ where I am not forced to write in a specific way. Java and Rust are great example of forcing you to write in their own way.</p>
-                    <h3>Where's it at?</h3>
-                    <p>It currently has years worth of planning due to school and some procrascination not letting me start. It originally started as a plan with full custom kernel but I realized it was too ambitious for a solo dev.</p>
-                    <br>
-                    <p>This blog will serve as a devlog, I will try to post updates and progress as much as I can but no promises. Life happens.</p>
-                    <h3>Whos behind this?</h3>
-                    <p>Just me. One dev. No team. No funding. No startup. Why you may ask? Well it's just a passion project to me like many things I make.</p>
-                </div>
-            </main>
-            <div id="footer-wrapper"></div>
-            <script type="module" src="/js/render_header-footer.js" defer></script>
-        </div>
-    </body>
+                    for (let i = 0; i < timeElems.length; i++) {
+                        const elem = timeElems[i];
+                        const date = new Date(elem.getAttribute('datetime'));
+                        elem.textContent = date.toLocaleDateString('de-DE', {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric'
+                        });
+                    }
+                </script>
+                <h3>Einleitung</h3>
+                <p>Ich entwickle derzeit ein neues Betriebssystem. Warum, fragst du vielleicht? Ich habe genug von allen Distributionen und Betriebssystemen, die sich wenig um die Benutzererfahrung kümmern.</p>
+                <br>
+                <p>MacOS versucht es, aber es gibt einige Inkonsistenzen, die anscheinend schon seit Beginn bestehen. Windows? Ich muss es wohl nicht erklären, es ist hauptsächlich profitorientiert und kümmert sich wenig um den Benutzer oder dessen Privatsphäre.</p>
+                <br>
+                <p>Linux? Das ist meine Basis, klar; aber selbst dort gibt es große Schwächen. Die meisten Distributionen scheitern auf der Ebene der Desktop-Umgebung.</p>
+                <h3>Warum die Desktop-Umgebung?</h3>
+                <p>Nehmen wir zum Beispiel KDE – ziemlich leistungsfähig; aber aus Sicht eines durchschnittlichen Benutzers kann es überwältigend sein. Viele Schalter, Optionen und Module; es wird schnell zu einer chaotischen Erfahrung. (Zur Referenz: Ich habe zuletzt KDE etwa in Version 5.25 verwendet.)</p>
+                <br>
+                <p>Dann gibt es GNOME, elegant und sauber von Haus aus, aber es benötigt zahlreiche Erweiterungen, um es vollständig anzupassen, wie man möchte, und ist erneut überwältigend für durchschnittliche Benutzer, die wissen müssen, wie Erweiterungen funktionieren oder manchmal den Desktop zerstören können.</p>
+                <h3>Was ich baue</h3>
+                <p>Ich werde wahrscheinlich damit beginnen, eine Void-Linux-basierte Distribution mit einer benutzerdefinierten Desktop-Umgebung zu erstellen, die ich komplett von Grund auf selbst entwickle. Sie wird von Wayland angetrieben und höchstwahrscheinlich in C++ geschrieben.</p>
+                <br>
+                <p>Das Projekt wird vermutlich insgesamt Andromeda OS heißen, und die Desktop-Umgebung wird Andromeda Desktop Environment oder kurz ADE genannt. Meine Inspiration dafür ist, dass ich einfach Astronomie mag.</p>
+                <p>Das Ziel? Ein Desktop, der sauber, konsistent und für normale Nutzer gestaltet ist, nicht nur für Entwickler oder Unternehmen.</p>
+                <h3>Warum C++?</h3>
+                <p>Dies ist eine überarbeitete Version des ursprünglichen Artikels ohne Rust. Warum? Ich habe gelernt, Rust nicht zu mögen, da C++ für mich einfacher ist.</p>
+                <br>
+                <p>Ich mag auch den einfacheren, weniger komplexen Stil von C++, bei dem ich nicht gezwungen bin, auf eine bestimmte Weise zu schreiben. Java und Rust sind gute Beispiele dafür, dass man auf deren eigene Weise schreiben muss.</p>
+                <h3>Wie weit ist es?</h3>
+                <p>Es gibt bereits Jahre an Planung, bedingt durch Schule und etwas Prokrastination, die mich bisher aufgehalten hat. Ursprünglich begann es als Plan mit vollständig eigenem Kernel, aber ich erkannte, dass dies zu ambitioniert für einen einzelnen Entwickler war.</p>
+                <br>
+                <p>Dieser Blog wird als Devlog dienen. Ich werde versuchen, Updates und Fortschritte so oft wie möglich zu posten, aber keine Versprechen. Das Leben passiert.</p>
+                <h3>Wer steckt dahinter?</h3>
+                <p>Nur ich. Ein Entwickler. Kein Team. Keine Finanzierung. Kein Startup. Warum? Nun, es ist einfach ein Passion-Projekt für mich, wie viele Dinge, die ich erstelle.</p>
+                <br>
+                <p id="ai-disclaimer">Dieser Beitrag wurde mithilfe von KI-Übersetzungstools erstellt.</p> 
+            </div>
+        </main>
+        <div id="footer-wrapper"></div>
+        <script type="module" src="/js/render_header-footer.js" defer></script>
+    </div>
+</body>
 </html>

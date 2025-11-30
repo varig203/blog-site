@@ -19,15 +19,20 @@
             <main>
                 <div id="post-page">
                 <h2>My Robotics Journey</h2>
-                <time id="post-date" datetime="2025-04-06T14:05:53-07:00"></time>
+                <time class="post-time post-date" datetime="2025-04-06T14:05:53-07:00"></time>
+                <p class="post-date">Edited on <time class="post-time" datetime="2025-11-29T17:41:00-07:00"></time></p>
                 <script>
-                    const timeElem = document.getElementById('post-date');
-                    const date = new Date(timeElem.getAttribute('datetime'));
-                    timeElem.textContent = date.toLocaleDateString(undefined, {
-                        year: 'numeric',
-                        month: 'short',
-                        day: 'numeric'
-                    });
+                    const timeElems = document.getElementsByClassName('post-time');
+
+                    for (let i = 0; i < timeElems.length; i++) {
+                        const elem = timeElems[i];
+                        const date = new Date(elem.getAttribute('datetime'));
+                        elem.textContent = date.toLocaleDateString(undefined, {
+                            year: 'numeric',
+                            month: 'short',
+                            day: 'numeric'
+                        });
+                    }
                 </script>
                 <p>I started doing Robotics in Grade 9, just because it sounded like a fun course and I loved the idea of being hands on with my code. It began with a curiosity which quickly progressed into a passion and by now, 3 months before graduation, I had spent 3 years in Robotics and 4 years Programming.</p>
                 <h3>Year by year</h3>

@@ -259,7 +259,7 @@ footer ul li i {
     padding-bottom: 0;
 }
 
-#post-page ul li {
+#post-page ul,ol li {
     margin-left: 25px;
     padding: 5px 0;
 }
